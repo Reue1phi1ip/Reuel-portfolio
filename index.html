@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reuel Philip | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --accent: #22c55e;
+      --card-bg: rgba(255, 255, 255, 0.08);
+      --text-color: #f1f5f9;
+      --muted: #a1a1aa;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #000000, #065f46);
+      color: var(--text-color);
+    }
+    header {
+      background: transparent;
+      color: var(--text-color);
+      padding: 2.5rem 1rem 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      font-weight: 600;
+      color: #7CFC00;
+      margin-bottom: 0.5rem;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 1.75rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0, 255, 128, 0.15);
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background: rgba(0, 0, 0, 0.3);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      font-size: 1.75rem;
+      margin-top: 1rem;
+    }
+    .icons i {
+      color: var(--accent);
+      transition: transform 0.2s;
+    }
+    .icons i:hover {
+      transform: scale(1.2);
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Reuel Philip</h1>
+    <p>Data Analyst | Generative AI | Business, Sales & Marketing Enthusiast</p>
+    <div class="icons">
+      <i class="fas fa-chart-line" title="Analytics"></i>
+      <i class="fas fa-robot" title="Generative AI"></i>
+      <i class="fas fa-bullhorn" title="Marketing"></i>
+      <i class="fas fa-users" title="HR"></i>
+    </div>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I’m passionate about using data, AI, and strategy to solve real-world problems. I combine technical skills in data analytics and generative AI with business acumen in sales, marketing, and HR. Whether it’s designing AI-powered solutions or optimizing team performance, I bring a unique blend of creativity and strategy to every project.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Featured Projects</h2>
+    <div class="card">
+      <h3>📊 Product Review Sentiment Analysis</h3>
+      <p>Analyzed thousands of customer reviews using VADER and BERT models to derive actionable business insights for product improvement.</p>
+    </div>
+    <div class="card">
+      <h3>📊 Excel Dashboards & VBA Automation</h3>
+      <p>Designed automated reporting systems and interactive dashboards in Excel using VBA scripting and advanced formula logic to streamline business decision-making.</p>
+    </div>
+    <div class="card">
+      <h3>📈 Sales Funnel Optimization</h3>
+      <p>Worked with CRM and analytics tools to improve lead conversion rates, using data to identify and patch funnel drop-offs.</p>
+    </div>
+    <div class="card">
+      <h3>📊 Power BI & Tableau Visualizations</h3>
+      <p>Created dynamic, insightful dashboards in Power BI and Tableau to visualize KPIs and trends across departments, enabling data-driven decision-making.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: <a href="mailto:reuelphilip1202@gmail.com">reuelphilip1202@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/reuel-philip" target="_blank">linkedin.com/in/reuel-philip</a></p>
+      <p>GitHub: <a href="https://github.com/Reue1phi1ip" target="_blank">github.com/Reue1phi1ip</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Reuel Philip. All rights reserved.</p>
+  </footer>
+</body>
+</html>
